@@ -1,0 +1,35 @@
+div {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  
+}
+
+button {
+  width: 340px;
+  height: 68px;
+  border-radius: 84px;
+  background: linear-gradient(180deg, #FFFFFF -13.5%, rgba(243, 247, 239, 0) 187.91%);
+  box-shadow: 0px 0px 21px 10px #00000057;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 500;
+  color: #2F2A37;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  transform: scale(1.02);
+}
+
+button:active {
+  border: 5px solid #a900ec4e;
+  background-color: #a900ec4e;
+}
